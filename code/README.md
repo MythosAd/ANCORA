@@ -10,7 +10,7 @@ The earliest runs predate systematic version control, and the code changed betwe
 |---|---|
 | `trainer/qs_trainer-Qwen2.5-Coder-3B-QGSG-SFTinit-RL-rootonly-qscale0375-band1of8-strictpool-nofreeze-v1.py` | Trainer snapshot of the reported run (5,702 lines; `QuestionSolverTrainer`). |
 | `trainer/qs_trainer_v45_rootonly_resume.py` | Wrapper that loads the snapshot above; used for the resumed segment (steps 2,000–3,200). |
-| `eval/qs_trainer_rebuttal_1shot.py` | Evaluation-only wrapper for the PSV-format 1-shot evaluation (Table 2, last row). |
+| `eval/qs_trainer_rebuttal_1shot.py` | Evaluation-only wrapper for the PSV-format 1-shot evaluation (last row of the main results table). |
 | `eval/qs_trainer_paper_version.py` | Later trainer version that the 1-shot wrapper loads for its validation code. |
 | `launch/train_steps_0000-2000.command.txt` | Command line of steps 0–2,000, copied from the run's log. |
 | `launch/train_steps_2000-3200.command.txt` | Command line of the resumed segment, copied from its log. |

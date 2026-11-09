@@ -25,7 +25,7 @@ Test-time-training setting, Qwen2.5-Coder-3B-Instruct, n = 100 samples per task,
 | ANCORA, 0-shot | 81.46 | 44.11 | 19.15 |
 | ANCORA, PSV-format 1-shot | 74.28 | 41.15 | 18.67 |
 
-Pass@5/10, the transfer setting, and task-level intervals are in Table 2 and Section 5 of the paper. The HumanEval-Verus margins over PSV are inconclusive.
+Pass@5/10, the transfer setting, and task-level intervals are in the main results table and Section 5 of the paper. The HumanEval-Verus margins over PSV are inconclusive.
 
 ## What's in this repository
 

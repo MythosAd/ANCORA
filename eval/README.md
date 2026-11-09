@@ -8,7 +8,7 @@
 | Auto-repair | Yes: strips a redundant leading `{`, appends or strips braces, normalizes inline invariants | No |
 | Output | Verified / not verified per entry, plus the repair applied | Binary verifier outcome per attempt |
 
-The scorer used for training and evaluation is part of the trainer, which is not yet released (see [`../ROADMAP.md`](../ROADMAP.md)). Its rules are described in Section 4.3 of the paper: the Solver's body is appended to the fixed specification, responses that repeat `requires`/`ensures`, a `verus!` wrapper, `fn main`, or `use` statements are rejected, and the reward is 1 only if Verus verifies the result.
+The scorer used for training and evaluation is part of the trainer (see [`../code/README.md`](../code/README.md)). The Solver's body is appended to the fixed specification; responses that repeat `requires`/`ensures`, contain a `verus!` wrapper, `fn main`, or `use` statements, or give a placeholder implementation are rejected; and the reward is 1 only if Verus verifies the result.
 
 An earlier version of this file described the script as the evaluation harness and as matching a partial-credit training score. Both statements were incorrect: training rewards in the reported run are binary.
 
