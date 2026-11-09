@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the paper below."
+title: "ANCORA"
+authors:
+  - family-names: "Yang"
+    given-names: "Chengcao"
+    affiliation: "Wuhan University"
+repository-code: "https://github.com/MythosAd/ANCORA"
+license: Apache-2.0
+preferred-citation:
+  type: article
+  title: "ANCORA: Learning to Question via Manifold-Anchored Self-Play for Verifiable Reasoning"
+  authors:
+    - family-names: "Yang"
+      given-names: "Chengcao"
+  journal: "arXiv preprint arXiv:2604.27644"
+  year: 2026
+  identifiers:
+    - type: other
+      value: "arXiv:2604.27644"

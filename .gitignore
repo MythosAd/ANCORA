@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+
+# Local artifacts
+*.log
+*.aux
+*.synctex.gz
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Training outputs (not part of release)
+checkpoints/
+ray_tmp/
+wandb/
+*.parquet
